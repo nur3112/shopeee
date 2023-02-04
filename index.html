@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Document</title>
+    <style>
+        .divpractice{
+            width: 700px;
+            height: 400px;
+
+            background-color: green;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            margin: 0pt auto 0px auto;
+            padding: 10px;
+        }
+        .divpractice > .first{
+             width: 40%;
+            height: 200px;
+
+            background-color: blue;
+        }
+        .divpractice > .second{ 
+             width: 40%;
+            height: 300px;
+
+            background-color: red;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }    
+        .divpractice > .second > button{
+            margin-right: 5px;
+
+            padding: 10px;
+        }
+        
+    </style>
+    <script>
+        function hey acha(){
+            alert('hey')
+        }
+
+        function hello acha(){
+            alert('hello ')
+        }
+        
+    </script>
+</head>
+<body>
+    <h1>Cloning Shopee</h1>
+    <h2>subtitle shopee</h2>
+    <input type="text" id="input-box">
+    <div>
+        <div class="divpractice">
+            <div class="first">first div</div>
+            <div class="second" id="second-box">
+            <button onclick="hey acha()">first</button>
+            <button onclick="hello acha()">second</button>
+            <button>third</button>
+        </div>
+    </div>
+</body>
+</html>
